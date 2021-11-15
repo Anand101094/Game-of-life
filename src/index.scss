@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.gol-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  outline: 1px solid #f2f2f2;
+}
+.box {
+  width: 15px;
+  height: 15px;
+  border: 0.5px solid #f2f2f2;
+}
+
+.restart-btn {
+  margin-right: 20px;
+}
+
+.cta-container,
+.create-grid-btn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  min-width: 80px;
+  background-color: red;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.black {
+  background-color: black;
+}
+
+.green {
+  background-color: green;
+}
+
+input {
+  width: 80px;
+  padding: 8px;
+}
+
+.row-col-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.gen-num {
+  position: absolute;
+  right: 0;
+  padding: 10px 20px;
+}
